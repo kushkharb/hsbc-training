@@ -1,0 +1,4 @@
+Data Access Layer - dao package includes Interface, Exception Class and Factory.
+Entity - entity package includes all the entity like electronics,foodIdemt and apparel.
+Service - Service package contains the productService.
+Basic Logic - impl package contains all logic and  methods.
