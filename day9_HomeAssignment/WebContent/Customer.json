@@ -1,0 +1,9 @@
+{
+"cusArray": [
+	{"custId":101,"custName":"kush","address":"safidon","accountBalance":45000},
+	{"custId":102,"custName":"loki","address":"patiala","accountBalance":50000},
+	{"custId":103,"custName":"poki","address":"panipat","accountBalance":40000},
+	{"custId":104,"custName":"kirti","address":"cheeka","accountBalance":30000},
+	{"custId":105,"custName":"sethi","address":"chd","accountBalance":70000}
+]
+}

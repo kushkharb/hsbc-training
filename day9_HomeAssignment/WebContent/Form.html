@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<script src="validate.js"></script>
+
+<style type="text/css">
+h1
+{
+  color: green;
+  font-style: verdana;
+ }
+ body {
+	
+	text-align: center;
+}
+input
+{
+	border-color: blue;
+}
+
+</style>
+
+</head>
+<body>
+<hr>
+	
+   <h1 align="center">Welcome to HSBC Bank</h1>
+   <h2 align="center">Customer Registration Form</h2>
+
+<hr>
+ 
+ <div align="center" >
+ <form method="post" >
+   <table >
+	    <tr>
+		    <td>
+		         <label>Enter Name</label>
+		    </td>
+		     <td> 
+		     <input type="text" name="name" id="name">
+		     <b style="color: orange;" id="a"></b>	
+		    </td>
+	    </tr>
+    
+        <tr>
+		    <td>
+		         <label>Enter Password</label>
+		     </td>
+		     <td>
+		         <input type="text" name="password" id="p">
+		         <b style="color: orange;" id="b"></b>
+		    </td>
+	    </tr>
+	     <tr>
+		    <td>
+		         <label>Enter Email</label>
+		     </td>
+		     <td>
+		         <input type="text" name="email" id="email">
+		         <b style="color: orange;" id="c"></b>
+		    </td>
+	    </tr>
+    
+        <tr>
+		    <td>
+		         <label>Enter Gender</label>
+		     </td>
+		     <td> 
+		         <input type="radio" name="Gender" id="m" value="male">Male
+		         <input type="radio" name="Gender" id="f" value="female">Female
+		    </td>
+	    </tr>
+	     
+    
+         <tr>
+            <td><label>Select Country</label></td>
+            <td><select name="location" id="location">
+            <option>India</option>
+            <option>Singapore</option>
+            <option>nepal</option>
+            <option>Vietnam</option>
+            
+            </select></td>
+         </tr>
+        
+         <tr></tr>
+        
+         <tr>
+
+         <td colspan="2" align="center"> <input type='submit' value="Register" onclick="validate()"></td>
+     </tr>
+    
+    
+    </table> 
+   
+ </form>
+</div>
+
+
+</body>
+</html>
