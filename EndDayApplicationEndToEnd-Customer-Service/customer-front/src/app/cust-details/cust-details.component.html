@@ -1,0 +1,9 @@
+<h1>Customer Details Page</h1>
+<hr>
+CustomerId: <input type="text" value="" #inputText>
+<button (click)="getCustDetails(inputText.value)">fetch</button>
+<table>
+    <tr> <td>Cust id:</td> <td>{{cust.customerId}}</td> </tr>
+    <tr> <td>Cust name:</td> <td>{{cust.customerName}}</td> </tr>
+    <tr> <td>mobile No:</td> <td>{{cust.mobile}}</td> </tr>
+</table>

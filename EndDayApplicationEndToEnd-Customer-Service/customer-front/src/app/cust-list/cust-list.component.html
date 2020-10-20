@@ -1,0 +1,10 @@
+<hr>
+<button (click)="getCustList()">get customers</button>
+    <h1>Customers Details Table</h1>
+    <table border="1">
+        <tr *ngFor="let c of custList">
+            <td>{{c.customerId}}</td>
+            <td>{{c.customerName}}</td>  
+            <td>{{c.mobile}}</td>
+        </tr>
+    </table>
